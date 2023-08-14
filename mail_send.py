@@ -13,10 +13,10 @@ class Send_Email(Command):
     def execute(self, message, attachment_actions, activity):
         smtp_server = "smtp.gmail.com"
         port = 587  # For starttls
-        sender_email = "jayskrab4@gmail.com"
-        receiver_email = "osulover99@gmail.com"
+        sender_email = ",xyz@cisco.com"
+        receiver_email = ",xyz@cisco.com"
         message = "test email"
-        password = '8865623Jay!'
+        password = 'passwrd23!'
 
         # Create a secure SSL context
         context = ssl.create_default_context()
